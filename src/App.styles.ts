@@ -9,6 +9,7 @@ html {
 body {
     background-image: url(${BGImage});
     background-size: cover;
+    background-position: center;
     margin: 0;
     padding: 0 20px;
     display: flex;
@@ -21,7 +22,9 @@ body {
     box-sizing:border-box;
     font-family: 'Ubuntu';
 }
-
+.loading{
+  margin: auto; background: rgb(241, 242, 243); display: block; shape-rendering: auto;
+}
 
 
 `;

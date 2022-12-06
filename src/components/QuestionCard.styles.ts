@@ -29,7 +29,7 @@ export const ButtonWrapper = styled.div<ButtonWrapperProps>`
       correct
         ? "linear-gradient(90deg, #56ffa4, #59bc86)"
         : !correct && userClicked
-        ? "linear-gradient(90deg, #ff5656, ##c16868)"
+        ? "linear-gradient(90deg, #ff5656, #c16868)"
         : "linear-gradient(90deg, #fff, #87f1ff)"};
     box-shadow: 1px 2px 0 #333;
     color: #333;
